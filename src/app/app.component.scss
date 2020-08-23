@@ -15,22 +15,22 @@ header {
 h1 {
   text-shadow: -1px 1px 5px #333;
   font-size: 45px;
+  margin: 0;
 }
 
 h2 {
   text-shadow: -1px 1px 5px #333;
   font-size: 25px;
+  margin: 0;
 }
 
 .content {
   width: 800px;
-  margin: 0 auto;
-
-  h3 {
-    font-size: 25px;
-  }
+  margin: 0 auto 80px;
 
   &__posts {
+    padding: 0;
+
     li {
       width: 100%;
       list-style: none;
