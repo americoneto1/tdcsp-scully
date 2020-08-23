@@ -8,6 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "netlify": "npm run build && npm run scully",
     "scully": "scully",
     "scully:serve": "scully serve"
   },
