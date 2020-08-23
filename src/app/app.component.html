@@ -1,9 +1,21 @@
-<ul>
-  <li *ngFor="let post of posts$ | async">
-    <a [routerLink]="post.route">{{ post.title }}</a>
-  </li>
-</ul>
+<header>
+  <h1>TDC São Paulo Online</h1>
+  <h2>Construindo sites estáticos com Angular</h2>
+</header>
 
-<hr />
+<div class="content">
+  <h3>Posts</h3>
+  <ul class="content__posts">
+    <li *ngFor="let post of posts$ | async">
+      <a [routerLink]="post.route">{{ post.title }}</a>
+    </li>
+  </ul>
 
-<router-outlet></router-outlet>
+  <hr />
+
+  <router-outlet></router-outlet>
+</div>
+
+<footer>
+  2020. Feito com Scully ♥️
+</footer>
