@@ -1,5 +1,5 @@
 ---
-title: Lorem Code
+title: Lorem Code Code
 ---
 # Partes sub armis domino alter
 
